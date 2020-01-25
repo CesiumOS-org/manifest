@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="cesium"
+          fetch="https://github.com/CesiumOS"
+          revision="ten" />
+
+  <remote name="cesium-devices"
+          fetch="https://github.com/CesiumOS-Devices"
+          revision="ten" />
+
+  <remote name="cesium-gitlab"
+          fetch="https://gitlab.com/CesiumOS"
+          revision="ten" />
+
+  <remote name="gitlab"
+          fetch="https://gitlab.com" />
+  
+  <!-- Hardware repos -->
+  <project path="hardware/qcom-caf/msm8952/media" name="hardware_qcom-caf_msm8952_media" remote="cesium" />
+  <project path="hardware/qcom-caf/msm8952/audio" name="hardware_qcom-caf_msm8952_audio" remote="cesium" />
+  <project path="hardware/qcom-caf/msm8952/display" name="hardware_qcom-caf_msm8952_display" remote="cesium" />
+
+  <!-- Framework repos -->
+  <project path="frameworks/av" name="frameworks_av" remote="cesium" />
+  <project path="frameworks/base" name="frameworks_base" remote="cesium" />
+  <project path="frameworks/native" name="frameworks_native" remote="cesium" />
+
+  <!-- General repos -->
+  <project path="build/make" name="build" remote="cesium">
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="build/soong" name="build_soong" remote="cesium" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+  <project path="manifest" name="manifest" remote="cesium" />
+  <project path="vendor/aosp" name="vendor_aosp" remote="cesium" />
+  <project path="vendor/gapps" name="vendor_gapps" remote="cesium-gitlab" clone-depth="1" />
+  <project path="vendor/cesiumstyle" name="vendor_cesiumstyle" remote="cesium" />
+
+  <!-- Packages repos -->
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="cesium" />
+  <project path="packages/apps/Updates" name="packages_apps_Updates" remote="cesium" />
+ 
+  <!-- System Repos -->
+  <project path="system/core" name="system_core" remote="cesium" />
+  <project path="system/sepolicy" name="system_sepolicy" remote="cesium" />
+
+</manifest>
