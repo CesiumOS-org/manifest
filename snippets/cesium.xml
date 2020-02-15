@@ -20,7 +20,7 @@
   <project path="hardware/qcom-caf/msm8952/media" name="hardware_qcom-caf_msm8952_media" remote="cesium" />
   <project path="hardware/qcom-caf/msm8952/audio" name="hardware_qcom-caf_msm8952_audio" remote="cesium" />
   <project path="hardware/qcom-caf/msm8952/display" name="hardware_qcom-caf_msm8952_display" remote="cesium" />
-  <project path="hardware/custom/interfaces" name="hardware_custom_interfaces" remote="ten" />
+  <project path="hardware/custom/interfaces" name="hardware_custom_interfaces" remote="cesium" />
 
   <!-- Framework repos -->
   <project path="frameworks/av" name="frameworks_av" remote="cesium" />
@@ -51,7 +51,7 @@
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="cesium" />
   <project path="packages/apps/Updates" name="packages_apps_Updates" remote="cesium" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="cesium" />
-  <project path="packages/apps/ConfigCenter" name="packages_apps_ConfigCenter" remote"cesium" />
+  <project path="packages/apps/ConfigCenter" name="packages_apps_ConfigCenter" remote="cesium" />
  
   <!-- System Repos -->
   <project path="system/core" name="system_core" remote="cesium" />
