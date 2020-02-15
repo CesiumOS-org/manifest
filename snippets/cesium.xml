@@ -49,6 +49,7 @@
   <!-- Packages repos -->
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="cesium" />
   <project path="packages/apps/Updates" name="packages_apps_Updates" remote="cesium" />
+  <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="cesium" />
  
   <!-- System Repos -->
   <project path="system/core" name="system_core" remote="cesium" />
