@@ -20,6 +20,7 @@
   <project path="hardware/qcom-caf/msm8952/media" name="hardware_qcom-caf_msm8952_media" remote="cesium" />
   <project path="hardware/qcom-caf/msm8952/audio" name="hardware_qcom-caf_msm8952_audio" remote="cesium" />
   <project path="hardware/qcom-caf/msm8952/display" name="hardware_qcom-caf_msm8952_display" remote="cesium" />
+  <project path="hardware/custom/interfaces" name="hardware_custom_interfaces" remote="ten" />
 
   <!-- Framework repos -->
   <project path="frameworks/av" name="frameworks_av" remote="cesium" />
