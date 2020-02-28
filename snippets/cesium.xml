@@ -15,6 +15,9 @@
 
   <remote name="gitlab"
           fetch="https://gitlab.com" />
+
+  <!-- External repos -->
+  <project path="external/skia" name="external_skia"  remote="cesium" />
   
   <!-- Hardware repos -->
   <project path="hardware/qcom-caf/msm8952/media" name="hardware_qcom-caf_msm8952_media" remote="cesium" />
