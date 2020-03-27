@@ -53,6 +53,7 @@
 
   <!-- Packages repos -->
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="cesium" />
+  <project path="packages/apps/Snap" name="packages_apps_Snap" remote="cesium" />
   <project path="packages/apps/Updates" name="packages_apps_Updates" remote="cesium" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="cesium" />
   <project path="packages/apps/ConfigCenter" name="packages_apps_ConfigCenter" remote="cesium" />
