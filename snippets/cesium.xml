@@ -51,7 +51,7 @@
   <project path="device/custom/sepolicy" name="device_custom_sepolicy" remote="cesium" />
 
   <!-- Packages repos -->
-
+  <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="cesium" />
   <project path="packages/apps/Browser" name="packages_apps_Browser" remote="cesium" />
   <project path="packages/apps/MusicFX" name="packages_apps_MusicFX" remote="cesium" />
   <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="cesium" />
