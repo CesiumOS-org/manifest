@@ -85,6 +85,7 @@
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="pixel" />
 
   <!-- External repos -->
+  <project path="external/motorola/faceunlock" name="external_motorola_faceunlock" remote="pixel" />
   <project path="external/tinycompress" name="external_tinycompress" remote="pixel" />
 
   <!-- System Repos -->
