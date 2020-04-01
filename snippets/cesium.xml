@@ -52,10 +52,8 @@
 
   <!-- Packages repos -->
   <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="cesium" />
-  <project path="packages/apps/Browser" name="packages_apps_Browser" remote="cesium" />
   <project path="packages/apps/MusicFX" name="packages_apps_MusicFX" remote="cesium" />
   <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="cesium" />
-  <project path="packages/apps/Gallery" name="packages_apps_Gallery" remote="cesium" />
   <project path="packages/apps/ExactCalculator" name="packages_apps_ExactCalculator" remote="cesium" />
   <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="cesium" />
   <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="cesium" />
@@ -65,7 +63,6 @@
   <project path="packages/apps/Updates" name="packages_apps_Updates" remote="cesium" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="cesium" />
   <project path="packages/apps/ConfigCenter" name="packages_apps_ConfigCenter" remote="cesium" />
-  <project path="packages/apps/CesiumWizard" name="packages_apps_CesiumWizard" remote="cesium" />
  
   <!-- System Repos -->
   <project path="system/core" name="system_core" remote="cesium" />
