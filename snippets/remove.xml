@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
@@ -54,6 +55,8 @@
   <remove-project name="device/ti/beagle-x15-kernel" />
 
   <!-- External repos -->
+  <remove-project name="platform/external/libcxx" />
+  <remove-project name="platform/external/libhevc" />
   <remove-project name="platform/external/e2fsprogs" />
   <remove-project name="platform/external/google-fonts/arbutus-slab" />
   <remove-project name="platform/external/google-fonts/lato" />
