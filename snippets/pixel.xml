@@ -6,6 +6,11 @@
           revision="ten"
           review="gerrit.pixelexperience.org" />
 
+  <remote name="pixel-plus"
+          fetch="https://github.com/PixelExperience"
+          revision="ten-plus"
+          review="gerrit.pixelexperience.org" />
+
   <!-- CodeAurora additions -->
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="pixel" />
   <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="pixel" />
@@ -82,6 +87,7 @@
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="pixel" />
 
   <!-- External repos -->
+  <project path="external/asus/stitchimage" name="external_asus_stitchimage" remote="pixel-plus" />
   <project path="external/libcxx" name="external_libcxx" remote="pixel" />
   <project path="external/libhevc" name="external_libhevc" remote="pixel" />
   <project path="external/motorola/faceunlock" name="external_motorola_faceunlock" remote="pixel" />
