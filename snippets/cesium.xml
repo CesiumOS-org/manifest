@@ -19,6 +19,7 @@
   <!-- External repos -->
   <project path="external/skia" name="external_skia"  remote="cesium" />
   <project path="external/motorola/faceunlock" name="external_motorola_faceunlock" remote="cesium-gitlab" />
+  <project path="external/airbnb-lottie" name="external_airbnb-lottie" remote="cesium" />
   
   <!-- Hardware repos -->
   <project path="hardware/qcom-caf/msm8952/media" name="hardware_qcom-caf_msm8952_media" remote="cesium" />
