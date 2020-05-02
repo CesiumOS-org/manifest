@@ -57,7 +57,7 @@
   <project path="bootable/recovery" name="bootable_recovery" remote="pixel" />
   <project path="development" name="development" remote="pixel" />
   <project path="platform_testing" name="platform_testing" remote="pixel" />
-  <project path="vendor/google/customization" name="vendor_google_customization" remote="pixel" />
+  <project path="vendor/google-customization" name="vendor_google-customization" remote="pixel" />
 
   <!-- Hardware repos -->
   <project path="hardware/interfaces" name="hardware_interfaces" remote="pixel" />
