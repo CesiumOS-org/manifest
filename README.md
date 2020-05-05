@@ -1,10 +1,8 @@
 <p align="center">
-<img src="https://i.postimg.cc/ht3j97Wk/CSBanner-Logo.png" > 
+<img src="https://i.postimg.cc/3xyYzDS4/About-Phone-Transparent-v2-6.png" > 
 
 CesiumOS Android Q 2020
 ==================================================
-
-[Download CesiumOS](https://sourceforge.net/projects/cesiumos/files/?source=navbar)
 
 [![Download CesiumOS](https://img.shields.io/sourceforge/dd/cesiumos.svg)](https://sourceforge.net/projects/cesiumos/files/)
 
@@ -27,7 +25,7 @@ How to build CesiumOS ROM for your device - Tutorial
 
 ### Required Packages [this is for ubuntu 16.04, for other variants it may differ]
 ##### Simply copy and paste this in a terminal window:
-[Hint: This command updates the Ubuntu Packages List (Install Listing) and install the required version of Java]
+>> [Hint: This command updates the Ubuntu Packages List (Install Listing) and install the required version of Java]
 
 ```bash
      $ sudo apt-get install openjdk-8-jdk
@@ -36,7 +34,7 @@ How to build CesiumOS ROM for your device - Tutorial
 ### Let that install and then proceed.
 
 ### More copy and paste:
-[Hint: Running this command installs the other required packages to build android]
+>> [Hint: Running this command installs the other required packages to build android]
 
 ```bash
      $ sudo apt-get update && sudo apt-get install bc git-core gnupg flex bison gperf libsdl1.2-dev libesd0-dev libwxgtk3.0-dev squashfs-tools build-essential zip curl libncurses5-dev zlib1g-dev openjdk-8-jre openjdk-8-jdk pngcrush schedtool libxml2 libxml2-utils xsltproc lzop libc6-dev schedtool g++-multilib lib32z1-dev lib32ncurses5-dev lib32readline6-dev gcc-multilib maven tmux screen w3m ncftp adb fastboot repo python default-jdk
@@ -90,7 +88,7 @@ How to build CesiumOS ROM for your device - Tutorial
 ```
 
 ##### Syncing the source
-[Hint: This might take a long time as the source is ~26GB]
+>> [Hint: This might take a long time as the source is ~26GB]
 
 ```bash
       $  repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
@@ -191,7 +189,7 @@ It is important that you set the USERNAME in your account on gerrit. If you have
 git clone PROJECT
 ```
 
-For Example -  git clone http://cesiumos.me/CesiumOS/packages_apps_Settings
+>> For Example -  git clone http://cesiumos.me/CesiumOS/packages_apps_Settings
 
 ```bash
 cd CLONED_DIRECTORY
@@ -214,7 +212,7 @@ git push ssh://USERNAME@cesiumos.me:29418/PROJECT_NAME HEAD:refs/for/ten
 
 >> Here the PROJECT_NAME is the path to repository on gerrit. You can find the PROJECT_NAME by navigating to the `Projects` section on gerrit.
 
-For example - CesiumOS/packages_apps_Settings
+>> For example - CesiumOS/packages_apps_Settings
 
 >> It is recommended that you commit your several relevent patches in to one single commit.
 
@@ -238,7 +236,7 @@ git commit --amend
 >> To view the status of your and/or others patches, visit [CesiumOS Code Review](http://cesiumos.me)
 
 <p align="center">
-<img src="https://i.postimg.cc/ht3j97Wk/CSBanner-Logo.png" > 
+<img src="https://i.postimg.cc/3xyYzDS4/About-Phone-Transparent-v2-6.png" > 
 
 
 
