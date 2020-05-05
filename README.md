@@ -183,23 +183,24 @@ It is important that you set the USERNAME in your account on gerrit. If you have
 
 
 >> You can upload the patches/contributions for review process using following procedure:
-[Always make sure to clone ssh with commit msg-hook]
+
+- [Always make sure to clone ssh with commit msg-hook]
 
 ```bash
-git clone PROJECT
+      $ git clone PROJECT
 ```
 
 >> For Example -  git clone http://cesiumos.me/CesiumOS/packages_apps_Settings
 
 ```bash
-cd CLONED_DIRECTORY
+      $ cd CLONED_DIRECTORY
 ```
 
 >> Make the changes you wish to add for review and execute following commands,
 
 ```bash
-git add -A
-git commit -m "commit message"
+      $ git add -A
+      $ git commit -m "commit message"
 ```
 
 >> Commit message should be clear, well written and easy to understand.
@@ -207,7 +208,7 @@ git commit -m "commit message"
 >> If you have satisfied with the changes you made then you can upload the patchset to gerrit.
 
 ```bash
-git push ssh://USERNAME@cesiumos.me:29418/PROJECT_NAME HEAD:refs/for/ten
+      $ git push ssh://USERNAME@cesiumos.me:29418/PROJECT_NAME HEAD:refs/for/ten
 ```
 
 >> Here the PROJECT_NAME is the path to repository on gerrit. You can find the PROJECT_NAME by navigating to the `Projects` section on gerrit.
@@ -219,15 +220,14 @@ git push ssh://USERNAME@cesiumos.me:29418/PROJECT_NAME HEAD:refs/for/ten
 >> Squash multiple commits using this command:
 
 ```bash
-git rebase -i HEAD~<# of commits>
+      $ git rebase -i HEAD~<# of commits>
 ```
 
 >> If you are going to make extra changes to an existing patch, Don't start a new patch, instead
 
 ```bash
-git add .
-
-git commit --amend
+      $ git add .
+      $ git commit --amend
 ```
 >> and simply push the changes to gerrit
 
