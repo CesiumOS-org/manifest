@@ -84,7 +84,6 @@
   <project path="packages/resources/devicesettings-custom" name="packages_resources_devicesettings-custom" remote="pixel" />
   <project path="packages/services/BuiltInPrintService" name="packages_services_BuiltInPrintService" remote="pixel" />
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="pixel" />
-  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="pixel" />
 
   <!-- External repos -->
   <project path="external/asus/stitchimage" name="external_asus_stitchimage" remote="pixel-plus" />
@@ -94,7 +93,6 @@
 
   <!-- System Repos -->
   <project path="system/apex" name="system_apex" remote="pixel" />
-  <project path="system/bt" name="system_bt" remote="pixel" />
   <project path="system/extras" name="system_extras" remote="pixel" />
   <project path="system/hardware/interfaces" name="system_hardware_interfaces" remote="pixel" />
   <project path="system/keymaster" name="system_keymaster" remote="pixel" />

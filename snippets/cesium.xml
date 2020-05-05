@@ -64,10 +64,12 @@
   <project path="packages/apps/Snap" name="packages_apps_Snap" remote="cesium" />
   <project path="packages/apps/Updates" name="packages_apps_Updates" remote="cesium" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="cesium" />
+  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="cesium" />
   <project path="packages/apps/ConfigCenter" name="packages_apps_ConfigCenter" remote="cesium" />
-  <project path="packages/apps/CesiumPapers" name="packages_apps_CesiumPapers" remote="cesium" />
+  <!--project path="packages/apps/CesiumPapers" name="packages_apps_CesiumPapers" remote="cesium" /-->
  
   <!-- System Repos -->
+  <project path="system/bt" name="system_bt" remote="cesium" />
   <project path="system/core" name="system_core" remote="cesium" />
   <project path="system/sepolicy" name="system_sepolicy" remote="cesium" />
 
