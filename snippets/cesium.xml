@@ -66,7 +66,7 @@
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="cesium" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="cesium" />
   <project path="packages/apps/ConfigCenter" name="packages_apps_ConfigCenter" remote="cesium" />
-  <!--project path="packages/apps/CesiumPapers" name="packages_apps_CesiumPapers" remote="cesium" /-->
+  <project path="packages/apps/WallBucket" name="packages_apps_WallBucket" remote="cesium" />
  
   <!-- System Repos -->
   <project path="system/bt" name="system_bt" remote="cesium" />
