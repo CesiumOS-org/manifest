@@ -112,9 +112,6 @@ How to build CesiumOS ROM for your device - Tutorial
         $ echo "export USE_CCACHE=1" >> ~/.bashrc
 ```
 
->>    -M 50G
->> The number before the letter G at the end specifies the amount of space CCache can use in your storage unit. As such, ensure that not too much of space is specified as this might result in unexpected errors although, the more storage you have, its recommended to have more CCache as it will increase the build times. Most efficient build systems are able to utilize CCache to about 120G or more.
-
 ##### To build CesiumOS ROM
 
 ```bash
@@ -187,10 +184,10 @@ It is important that you set the USERNAME in your account on gerrit. If you have
 - [Always make sure to clone ssh with commit msg-hook]
 
 ```bash
-      $ git clone PROJECT
+      $ git clone "ssh://$USERNAME@cesiumos.me:29418/CesiumOS/official_devices" && scp -p -P 29418 $USERNAME@cesiumos.me:hooks/commit-msg "official_devices/.git/hooks/"
 ```
 
->> For Example -  git clone http://cesiumos.me/CesiumOS/packages_apps_Settings
+>> For Example -  git clone "ssh://bunnyy@cesiumos.me:29418/CesiumOS/official_devices" && scp -p -P 29418 bunnyy@cesiumos.me:hooks/commit-msg "official_devices/.git/hooks/"
 
 ```bash
       $ cd CLONED_DIRECTORY
