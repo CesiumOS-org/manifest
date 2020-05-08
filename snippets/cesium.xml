@@ -2,11 +2,11 @@
 <manifest>
 
   <remote name="cesium"
-          fetch="https://github.com/CesiumOS"
+          fetch="https://github.com/CesiumOS-org"
           revision="ten" />
 
   <remote name="cesium-devices"
-          fetch="https://github.com/CesiumOS-Devices"
+          fetch="https://github.com/Cesium-Devices"
           revision="ten" />
 
   <remote name="cesium-gitlab"

@@ -1,7 +1,7 @@
 <p align="center">
 <img src="https://i.postimg.cc/3xyYzDS4/About-Phone-Transparent-v2-6.png" > 
 
-CesiumOS Android Q 2020
+CesiumOS Android 10 2020
 ==================================================
 
 [![Download CesiumOS](https://img.shields.io/sourceforge/dd/cesiumos.svg)](https://sourceforge.net/projects/cesiumos/files/)
@@ -84,7 +84,7 @@ How to build CesiumOS ROM for your device - Tutorial
 ##### Initializing the cos repo and downloading the manifest
 
 ```bash
-      $  repo init --depth=1 -u https://github.com/CesiumOS/manifest.git -b ten
+      $  repo init --depth=1 -u https://github.com/CesiumOS-org/manifest.git -b ten
 ```
 
 ##### Syncing the source
