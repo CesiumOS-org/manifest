@@ -48,13 +48,13 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
   <project path="manifest" name="manifest" remote="cesium" />
-  <project path="vendor/aosp" name="vendor_aosp" remote="cesium" />
+  <project path="vendor/cesium" name="vendor_cesium" remote="cesium" />
   <project path="vendor/cesiumstyle" name="vendor_cesiumstyle" remote="cesium" />
   <project path="device/custom/sepolicy" name="device_custom_sepolicy" remote="cesium" />
 
   <!-- Packages repos -->
   <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="cesium" />
-  <project path="packages/apps/MusicFX" name="packages_apps_MusicFX" remote="cesium" />
+  <!-- project path="packages/apps/MusicFX" name="packages_apps_MusicFX" remote="cesium" /-->
   <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="cesium" />
   <project path="packages/apps/ExactCalculator" name="packages_apps_ExactCalculator" remote="cesium" />
   <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="cesium" />
@@ -62,7 +62,7 @@
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="cesium" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="cesium" />
   <project path="packages/apps/Snap" name="packages_apps_Snap" remote="cesium" />
-  <project path="packages/apps/Updates" name="packages_apps_Updates" remote="cesium" />
+  <project path="packages/apps/Updater" name="packages_apps_Updater" remote="cesium" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="cesium" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="cesium" />
   <project path="packages/apps/ConfigCenter" name="packages_apps_ConfigCenter" remote="cesium" />
