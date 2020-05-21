@@ -96,7 +96,6 @@
   <project path="system/extras" name="system_extras" remote="pixel" />
   <project path="system/hardware/interfaces" name="system_hardware_interfaces" remote="pixel" />
   <project path="system/keymaster" name="system_keymaster" remote="pixel" />
-  <project path="system/netd" name="system_netd" remote="pixel" />
   <project path="system/vold" name="system_vold" remote="pixel" />
 
 </manifest>

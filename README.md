@@ -4,8 +4,6 @@
 CesiumOS Android 10 2020
 ==================================================
 
-[![Download CesiumOS](https://img.shields.io/sourceforge/dd/cesiumos.svg)](https://sourceforge.net/projects/cesiumos/files/)
-
 Getting Started
 ==================================================
 
