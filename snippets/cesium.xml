@@ -13,12 +13,16 @@
           fetch="https://gitlab.com/CesiumOS"
           revision="ten" />
 
+  <remote  name="syberia-bb"
+           fetch="https://bitbucket.org/syberia-project"
+           revision="refs/heads/10.0" />
+
   <remote name="gitlab"
           fetch="https://gitlab.com" />
 
   <!-- External repos -->
   <project path="external/skia" name="external_skia"  remote="cesium" />
-  <project path="external/motorola/faceunlock" name="external_motorola_faceunlock" remote="cesium-gitlab" />
+  <project path="external/motorola/faceunlock" name="external_motorola_faceunlock" remote="syberia-bb" />
   <project path="external/airbnb-lottie" name="external_airbnb-lottie" remote="cesium" />
   
   <!-- Hardware repos -->
