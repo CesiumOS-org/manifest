@@ -36,6 +36,7 @@
   <project path="frameworks/base" name="frameworks_base" remote="cesium" />
   <project path="frameworks/native" name="frameworks_native" remote="cesium" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="cesium" />
+  <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="cesium" />
 
   <!-- General repos -->
   <project path="build/make" name="build" remote="cesium">
@@ -57,6 +58,7 @@
   <project path="device/custom/sepolicy" name="device_custom_sepolicy" remote="cesium" />
 
   <!-- Packages repos -->
+  <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="cesium" />
   <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="cesium" />
   <!-- project path="packages/apps/MusicFX" name="packages_apps_MusicFX" remote="cesium" /-->
   <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="cesium" />
@@ -67,6 +69,7 @@
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="cesium" />
   <project path="packages/apps/Snap" name="packages_apps_Snap" remote="cesium" />
   <project path="packages/apps/Updater" name="packages_apps_Updater" remote="cesium" />
+  <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="cesium" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="cesium" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="cesium" />
   <project path="packages/apps/ConfigCenter" name="packages_apps_ConfigCenter" remote="cesium" />
