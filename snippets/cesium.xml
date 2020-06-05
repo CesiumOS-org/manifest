@@ -10,7 +10,7 @@
           revision="ten" />
 
   <remote name="cesium-gitlab"
-          fetch="https://gitlab.com/CesiumOS"
+          fetch="https://gitlab.com/cesiumos-org"
           revision="ten" />
 
   <remote  name="syberia-bb"
@@ -77,7 +77,7 @@
  
   <!-- System Repos -->
   <project path="system/bt" name="system_bt" remote="cesium" />
-  <project path="system/core" name="system_core" remote="cesium" />
+  <project path="system/core" name="system_core" remote="cesium-gitlab" />
   <project path="system/netd" name="system_netd" remote="cesium" />
   <project path="system/sepolicy" name="system_sepolicy" remote="cesium" />
 
