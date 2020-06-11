@@ -26,6 +26,9 @@
   <project path="external/airbnb-lottie" name="external_airbnb-lottie" remote="cesium" />
   
   <!-- Hardware repos -->
+  <project path="hardware/qcom-caf/sm8150/audio" name="hardware_qcom-caf_sm8150_audio" remote="cesium" />
+  <project path="hardware/qcom-caf/sm8150/display" name="hardware_qcom-caf_sm8150_display" remote="cesium" />
+  <project path="hardware/qcom-caf/sm8150/media" name="hardware_qcom-caf_sm8150_media" remote="cesium" />
   <project path="hardware/qcom-caf/msm8952/media" name="hardware_qcom-caf_msm8952_media" remote="cesium" />
   <project path="hardware/qcom-caf/msm8952/audio" name="hardware_qcom-caf_msm8952_audio" remote="cesium" />
   <project path="hardware/qcom-caf/msm8952/display" name="hardware_qcom-caf_msm8952_display" remote="cesium" />
