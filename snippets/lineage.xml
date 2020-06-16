@@ -4,7 +4,8 @@
   <remote name="lineage"
           fetch="https://github.com/LineageOS"
           revision="lineage-17.1" />
-
+  <!-- Lineage -->
+  <project path="hardware/sony/timekeep name="android_hardware_sony_timekeep" remote="lineage" />
   <!-- CodeAurora additions -->
   <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="lineage" />
   <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="lineage" />
