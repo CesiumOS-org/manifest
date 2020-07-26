@@ -43,6 +43,9 @@
   <project path="vendor/qcom/opensource/power" name="vendor_qcom_opensource_power" remote="pixel" />
   <project path="vendor/qcom/opensource/dataservices" name="vendor_qcom_opensource_dataservices" remote="pixel" />
 
+  <!-- Mediatek repos -->
+  <project path="device/mediatek/sepolicy" name="device_mediatek_sepolicy" remote="pixel" />
+
   <!-- Framework repos -->
   <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="pixel" />
 
