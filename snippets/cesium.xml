@@ -55,6 +55,7 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
+  <project path="bootable/recovery" name="bootable_recovery" remote="cesium" />
   <project path="manifest" name="manifest" remote="cesium" />
   <project path="vendor/cesium" name="vendor_cesium" remote="cesium" />
   <project path="vendor/cesiumstyle" name="vendor_cesiumstyle" remote="cesium" />
