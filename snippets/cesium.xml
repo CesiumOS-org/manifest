@@ -60,6 +60,7 @@
   <project path="vendor/cesium" name="vendor_cesium" remote="cesium" />
   <project path="vendor/cesiumstyle" name="vendor_cesiumstyle" remote="cesium" />
   <project path="device/custom/sepolicy" name="device_custom_sepolicy" remote="cesium" />
+  <project path="device/mediatek/sepolicy" name="device_mediatek_sepolicy" remote="cesium" />
 
   <!-- Packages repos -->
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="cesium" />
