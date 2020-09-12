@@ -3,43 +3,30 @@
 
   <remote name="cesium"
           fetch="https://github.com/CesiumOS-org"
-          revision="ten" />
+          revision="eleven" />
 
   <remote name="cesium-devices"
           fetch="https://github.com/Cesium-Devices"
-          revision="ten" />
+          revision="eleven" />
 
   <remote name="cesium-gitlab"
           fetch="https://gitlab.com/cesiumos-org"
-          revision="ten" />
-
-  <remote  name="syberia-bb"
-           fetch="https://bitbucket.org/syberia-project"
-           revision="refs/heads/10.0" />
+          revision="eleven" />
 
   <remote name="gitlab"
           fetch="https://gitlab.com" />
 
   <!-- External repos -->
-  <project path="external/skia" name="external_skia"  remote="cesium" />
-  <project path="external/motorola/faceunlock" name="external_motorola_faceunlock" remote="syberia-bb" />
-  <project path="external/airbnb-lottie" name="external_airbnb-lottie" remote="cesium" />
+  <project path="external/selinux" name="external_selinux" remote="cesium" />
   
   <!-- Hardware repos -->
-  <project path="hardware/qcom-caf/sm8150/audio" name="hardware_qcom-caf_sm8150_audio" remote="cesium" />
-  <project path="hardware/qcom-caf/sm8150/display" name="hardware_qcom-caf_sm8150_display" remote="cesium" />
-  <project path="hardware/qcom-caf/sm8150/media" name="hardware_qcom-caf_sm8150_media" remote="cesium" />
-  <project path="hardware/qcom-caf/msm8952/media" name="hardware_qcom-caf_msm8952_media" remote="cesium" />
-  <project path="hardware/qcom-caf/msm8952/audio" name="hardware_qcom-caf_msm8952_audio" remote="cesium" />
-  <project path="hardware/qcom-caf/msm8952/display" name="hardware_qcom-caf_msm8952_display" remote="cesium" />
   <project path="hardware/custom/interfaces" name="hardware_custom_interfaces" remote="cesium" />
+  <project path="hardware/interfaces" name="hardware_interfaces" remote="cesium" />
 
   <!-- Framework repos -->
   <project path="frameworks/av" name="frameworks_av" remote="cesium" />
   <project path="frameworks/base" name="frameworks_base" remote="cesium" />
   <project path="frameworks/native" name="frameworks_native" remote="cesium" />
-  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="cesium" />
-  <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="cesium" />
 
   <!-- General repos -->
   <project path="build/make" name="build" remote="cesium">
@@ -56,35 +43,24 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
   <project path="bootable/recovery" name="bootable_recovery" remote="cesium" />
+  <project path="bionic" name="bionic" remote="cesium" />
   <project path="manifest" name="manifest" remote="cesium" />
   <project path="vendor/cesium" name="vendor_cesium" remote="cesium" />
   <project path="vendor/cesiumstyle" name="vendor_cesiumstyle" remote="cesium" />
   <project path="device/custom/sepolicy" name="device_custom_sepolicy" remote="cesium" />
+  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="cesium" />
   <project path="device/mediatek/sepolicy" name="device_mediatek_sepolicy" remote="cesium" />
 
   <!-- Packages repos -->
-  <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="cesium" />
-  <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="cesium" />
-  <!-- project path="packages/apps/MusicFX" name="packages_apps_MusicFX" remote="cesium" /-->
-  <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="cesium" />
-  <project path="packages/apps/ExactCalculator" name="packages_apps_ExactCalculator" remote="cesium" />
-  <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="cesium" />
-  <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="cesium" />
-  <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="cesium" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="cesium" />
-  <project path="packages/apps/Snap" name="packages_apps_Snap" remote="cesium" />
   <project path="packages/apps/Updater" name="packages_apps_Updater" remote="cesium" />
-  <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="cesium" />
-  <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="cesium" />
-  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="cesium" />
-  <project path="packages/apps/ConfigCenter" name="packages_apps_ConfigCenter" remote="cesium" />
-  <project path="packages/apps/WallBucket" name="packages_apps_WallBucket" remote="cesium" />
-  <project path="packages/apps/OmniStyle" name="packages_apps_OmniStyle" remote="cesium" />
  
   <!-- System Repos -->
   <project path="system/bt" name="system_bt" remote="cesium" />
   <project path="system/core" name="system_core" remote="cesium-gitlab" />
-  <project path="system/netd" name="system_netd" remote="cesium" />
-  <project path="system/sepolicy" name="system_sepolicy" remote="cesium" />
+  
+  <!-- Prebuilts -->
+  <project path="prebuilts/abi-dumps/vndk" name="prebuilts_abi-dumps_vndk" remote="cesium" clone-depth="1" />
+	
 
 </manifest>
