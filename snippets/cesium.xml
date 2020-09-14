@@ -48,7 +48,7 @@
   <project path="bionic" name="bionic" remote="cesium" />
   <project path="manifest" name="manifest" remote="cesium" />
   <project path="vendor/cesium" name="vendor_cesium" remote="cesium" />
-  <project path="vendor/cesiumstyle" name="vendor_cesiumstyle" remote="cesium" />
+  <project path="vendor/cesium-prebuilts" name="vendor_cesium-prebuilts" remote="cesium" />
   <project path="device/custom/sepolicy" name="device_custom_sepolicy" remote="cesium" />
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="cesium" />
   <project path="device/mediatek/sepolicy" name="device_mediatek_sepolicy" remote="cesium" />
