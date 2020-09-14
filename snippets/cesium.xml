@@ -22,6 +22,8 @@
   <!-- Hardware repos -->
   <project path="hardware/custom/interfaces" name="hardware_custom_interfaces" remote="cesium" />
   <project path="hardware/interfaces" name="hardware_interfaces" remote="cesium" />
+  <project path="hardware/libhardware"  name="hardware_libhardware"  remote="cesium" />
+  <project path="hardware/libhardware_legacy"  name="hardware_libhardware_legacy"  remote="cesium" />
 
   <!-- Framework repos -->
   <project path="frameworks/av" name="frameworks_av" remote="cesium" />
