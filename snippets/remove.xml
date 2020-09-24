@@ -52,11 +52,15 @@
   
   <!-- External repos -->
   <remove-project name="platform/external/selinux" />
+  <remove-project name="platform/external/tinycompress" />
 
   <!-- Framework repos -->
   <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/frameworks/base" />
   <remove-project name="platform/frameworks/native" />
+  <remove-project name="platform/frameworks/opt/net/ims" />
+  <remove-project name="platform/frameworks/opt/net/wifi" />
+  <remove-project name="platform/frameworks/opt/telephony" />
   
   <!-- Hardware repos -->
   <remove-project name="platform/hardware/interfaces" />
@@ -79,7 +83,7 @@
   <remove-project name="platform/hardware/qcom/msm8x27" />
   <remove-project name="platform/hardware/qcom/msm8x84" />
   <remove-project name="platform/hardware/qcom/power" />
-  
+ 
   <!-- General repos -->
   <remove-project name="platform/bionic" />
   <remove-project name="platform/bootable/recovery" />
@@ -88,6 +92,7 @@
 
   <!-- Packages repos -->
   <remove-project name="platform/packages/apps/Settings" />
+  <remove-project name="platform/packages/apps/Nfc" />
 
   <!-- Prebuilts -->
   <remove-project name="platform/prebuilts/abi-dumps/vndk" />
