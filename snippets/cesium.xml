@@ -60,6 +60,7 @@
   <!-- Packages repos -->
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="cesium" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="cesium" />
+  <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="cesium" />
   <project path="packages/apps/Updater" name="packages_apps_Updater" remote="cesium" />
  
   <!-- System Repos -->

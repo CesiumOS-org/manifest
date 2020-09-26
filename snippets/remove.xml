@@ -92,6 +92,7 @@
 
   <!-- Packages repos -->
   <remove-project name="platform/packages/apps/Settings" />
+  <remove-project name="platform/packages/apps/ThemePicker" />
   <remove-project name="platform/packages/apps/Nfc" />
 
   <!-- Prebuilts -->
