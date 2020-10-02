@@ -19,6 +19,7 @@
   <!-- External repos -->
   <project path="external/selinux" name="external_selinux" remote="cesium" />
   <project path="external/tinycompress" name="external_tinycompress" remote="cesium" />
+  <project path="external/motorola/faceunlock" name="merser2005/external_motorola_faceunlock" revision="eleven" remote="gitlab" />
   
   <!-- Hardware repos -->
   <project path="hardware/custom/interfaces" name="hardware_custom_interfaces" remote="cesium" />
