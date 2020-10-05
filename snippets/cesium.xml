@@ -13,10 +13,15 @@
           fetch="https://gitlab.com/cesiumos-org"
           revision="eleven" />
 
+  <remote  name="cesium-bb"
+           fetch="https://bitbucket.org/cesiumos"
+           revision="eleven" />
+
   <remote name="gitlab"
           fetch="https://gitlab.com" />
 
   <!-- External repos -->
+  <project path="external/motorola/faceunlock" name="external_motorola_faceunlock" remote="cesium-bb" />
   <project path="external/selinux" name="external_selinux" remote="cesium" />
   <project path="external/tinycompress" name="external_tinycompress" remote="cesium" />
   
