@@ -70,6 +70,7 @@
  
   <!-- System Repos -->
   <project path="system/bt" name="system_bt" remote="cesium" />
+  <project path="system/netd" name="system_netd" remote="cesium" />
   <project path="system/core" name="system_core" remote="cesium-gitlab" />
   
   <!-- Prebuilts -->
