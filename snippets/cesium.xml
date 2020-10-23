@@ -58,8 +58,9 @@
   <project path="manifest" name="manifest" remote="cesium" />
   <project path="vendor/cesium" name="vendor_cesium" remote="cesium" />
   <project path="vendor/cesium-prebuilts" name="vendor_cesium-prebuilts" remote="cesium" />
-  <project path="device/custom/sepolicy" name="device_custom_sepolicy" remote="cesium" />
+  <project path="device/cesium/sepolicy" name="device_cesium_sepolicy" remote="cesium" />
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="cesium" />
+  <project path="device/qcom/sepolicy/vndr" name="device_qcom_sepolicy_vndr" remote="cesium" />
   <project path="device/mediatek/sepolicy" name="device_mediatek_sepolicy" remote="cesium" />
 
   <!-- Packages repos -->
@@ -77,6 +78,7 @@
   <project path="system/bt" name="system_bt" remote="cesium" />
   <project path="system/netd" name="system_netd" remote="cesium" />
   <project path="system/core" name="system_core" remote="cesium-gitlab" />
+  <project path="system/sepolicy" name="system_sepolicy" remote="cesium" />
   
   <!-- Prebuilts -->
   <project path="prebuilts/abi-dumps/vndk" name="prebuilts_abi-dumps_vndk" remote="cesium" clone-depth="1" />
