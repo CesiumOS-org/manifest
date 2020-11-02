@@ -10,7 +10,7 @@
           revision="eleven" />
 
   <remote name="cesium-gitlab"
-          fetch="https://gitlab.com/cesiumos-org"
+          fetch="https://git.rip/SahilSonar"
           revision="eleven" />
 
   <remote  name="cesium-bb"
@@ -84,5 +84,4 @@
   <!-- Prebuilts -->
   <project path="prebuilts/abi-dumps/vndk" name="prebuilts_abi-dumps_vndk" remote="cesium" clone-depth="1" />
 	
-
 </manifest>
