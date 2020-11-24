@@ -26,6 +26,7 @@
   <project path="hardware/interfaces" name="hardware_interfaces" remote="cesium" />
   <project path="hardware/libhardware"  name="hardware_libhardware"  remote="cesium" />
   <project path="hardware/libhardware_legacy"  name="hardware_libhardware_legacy"  remote="cesium" />
+  <project path="hardware/qcom/power"  name="hardware_qcom_power"  remote="cesium" />
   <project path="hardware/qcom-caf/common"  name="hardware_qcom-caf_common"  remote="cesium" >
     <!-- add guard for AOSP hardware/qcom dir -->
     <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
@@ -46,6 +47,10 @@
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sdm845/Android.mk" />
     <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/sm8150/Android.bp" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8150/Android.mk" />
+    <linkfile src="os_pickup.bp" dest="vendor/nxp/opensource/pn5xx/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="vendor/nxp/opensource/pn5xx/Android.mk" />
+    <linkfile src="os_pickup.bp" dest="vendor/nxp/opensource/sn100x/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="vendor/nxp/opensource/sn100x/Android.mk" />
   </project>
 
   <!-- Framework repos -->
