@@ -82,7 +82,7 @@
   <project path="vendor/cesium-prebuilts" name="vendor_cesium-prebuilts" remote="cesium" />
   <project path="device/cesium/sepolicy" name="device_cesium_sepolicy" remote="cesium" />
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="cesium" />
-  <project path="device/qcom/sepolicy/vndr" name="device_qcom_sepolicy_vndr" remote="cesium" />
+  <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" remote="cesium" />
   <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="cesium" />
   <project path="device/mediatek/sepolicy" name="device_mediatek_sepolicy" remote="cesium" />
 
