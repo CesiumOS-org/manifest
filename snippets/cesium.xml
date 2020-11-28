@@ -107,6 +107,7 @@
   <project path="system/netd" name="system_netd" remote="cesium" />
   <project path="system/core" name="system_core" remote="cesium" />
   <project path="system/sepolicy" name="system_sepolicy" remote="cesium" />
+  <project path="system/vold" name="system_vold" remote="cesium" />
   
   <!-- Prebuilts -->
   <project path="prebuilts/abi-dumps/vndk" name="prebuilts_abi-dumps_vndk" remote="cesium" clone-depth="1" />
