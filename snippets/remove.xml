@@ -65,6 +65,7 @@
   <remove-project name="platform/frameworks/opt/telephony" />
   
   <!-- Hardware repos -->
+  <remove-project name="platform/hardware/google/pixel" />
   <remove-project name="platform/hardware/interfaces" />
   <remove-project name="platform/hardware/libhardware" />
   <remove-project name="platform/hardware/libhardware_legacy" />
