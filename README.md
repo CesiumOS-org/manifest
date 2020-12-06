@@ -1,7 +1,7 @@
 <p align="center">
-<img src="https://i.postimg.cc/3xyYzDS4/About-Phone-Transparent-v2-6.png" > 
+<img src="https://i.postimg.cc/ZYXGkXdr/About-Device-Banner-2.png" > 
 
-CesiumOS Android 11 Beta 2020
+CesiumOS Android 11 2020
 ==================================================
 
 Getting Started
@@ -14,19 +14,19 @@ How to build CesiumOS ROM for your device - Tutorial
 
 ### Build Environment
 
-- Tested and Working on any version of Ubuntu - 14.04,14.10,15.04,16.04,18.04 (64-bit)
+- Tested and Working on any version of Ubuntu - 16.04,18.04,20.04 (64-bit)
 - Any other distribution based of the Ubuntu Distro such as Lubuntu, Xubuntu and etc.
 - Any form of Terminal
 - Decent hardware (minimum of at least a quad core CPU and 16 GB of RAM)
 - A storage unit of any kind (We recommend utilizing SSDs as Mechanical HDDs slow down the build proccess drastically and the minimum storage size is 70GB. Having more will be useful with CCache[More on that later])
 - Required Packages should have been installed
 
-### Required Packages [this is for ubuntu 16.04, for other variants it may differ]
+### Required Packages [this is for Ubuntu/Linux Mint/other distributions using the apt package manager, for other variants it may differ]
 ##### Simply copy and paste this in a terminal window:
 >> [Hint: This command updates the Ubuntu Packages List (Install Listing) and install the required version of Java]
 
 ```bash
-     $ sudo apt-get install openjdk-8-jdk
+     $ sudo apt-get install openjdk-8-jdk default-jdk
 ```
 
 ### Let that install and then proceed.
@@ -35,7 +35,9 @@ How to build CesiumOS ROM for your device - Tutorial
 >> [Hint: Running this command installs the other required packages to build android]
 
 ```bash
-     $ sudo apt-get update && sudo apt-get install bc git-core gnupg flex bison gperf libsdl1.2-dev libesd0-dev libwxgtk3.0-dev squashfs-tools build-essential zip curl libncurses5-dev zlib1g-dev openjdk-8-jre openjdk-8-jdk pngcrush schedtool libxml2 libxml2-utils xsltproc lzop libc6-dev schedtool g++-multilib lib32z1-dev lib32ncurses5-dev lib32readline6-dev gcc-multilib maven tmux screen w3m ncftp adb fastboot repo python default-jdk
+     $ git clone https://github.com/akhilnarang/scripts
+     $ cd scripts
+     $ bash setup/android_build_env.sh
 ```
 
 ### Getting the source
@@ -48,35 +50,11 @@ How to build CesiumOS ROM for your device - Tutorial
 
 >> Alright, so now we’re getting there. I have outlined the basics of what we’re about to do and broke them down as I know them. This is all pretty much going to be copy/paste so it’ll be fairly difficult to screw this up :)
 
-##### Make directory for the repo binary
-
-```bash
-      $ mkdir ~/bin
-```
-
-##### Add directory for the repo binary to its path
-
-```bash
-      $ PATH=~/bin:$PATH
-```
-
-##### Downloading repo binary and placing it in the proper directory
-
-```bash
-      $ curl http://commondatastorage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
-```
-
-##### Giving the repo binary the proper permissions
-
-```bash
-      $ chmod a+x ~/bin/repo
-```
-
 ##### Creating directory for where the cos repo will be stored and synced
 
 ```bash
-      $ mkdir ~/cos
-      $ cd ~/cos
+      $ mkdir ~/cesium
+      $ cd ~/cesium
 ```
 
 ##### Initializing the cos repo and downloading the manifest
@@ -86,7 +64,7 @@ How to build CesiumOS ROM for your device - Tutorial
 ```
 
 ##### Syncing the source
->> [Hint: This might take a long time as the source is ~26GB]
+>> [Hint: This might take a long time as the source is ~70GB]
 
 ```bash
       $  repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
@@ -113,7 +91,7 @@ How to build CesiumOS ROM for your device - Tutorial
 ##### To build CesiumOS ROM
 
 ```bash
-      $ cd ~/cos
+      $ cd ~/cesium
       $ source build/envsetup.sh
       $ lunch cesium_<devicecodename>-userdebug
       $ make bacon -j$(nproc --all)
@@ -123,7 +101,7 @@ How to build CesiumOS ROM for your device - Tutorial
 >> To get the zip file that has been built, navigate to the following directory and find for the zip file:
 
 ```bash
-      $ cd ~/cos/out/target/product/<devicename>
+      $ cd ~/cesium/out/target/product/<devicename>
 ```
 
 OR
@@ -231,7 +209,7 @@ It is important that you set the USERNAME in your account on gerrit. If you have
 >> To view the status of your and/or others patches, visit [CesiumOS Code Review](http://review.thecesiumos.me:8081)
 
 <p align="center">
-<img src="https://i.postimg.cc/3xyYzDS4/About-Phone-Transparent-v2-6.png" > 
+<img src="https://i.postimg.cc/ZYXGkXdr/About-Device-Banner-2.png" > 
 
 
 
