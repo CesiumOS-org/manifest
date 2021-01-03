@@ -1,7 +1,7 @@
 <p align="center">
 <img src="https://i.postimg.cc/ZYXGkXdr/About-Device-Banner-2.png" > 
 
-CesiumOS Android 11 2020
+CesiumOS Android 11 2021
 ==================================================
 
 Getting Started
