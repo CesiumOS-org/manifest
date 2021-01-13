@@ -110,6 +110,7 @@
   <project path="system/netd" name="system_netd" remote="cesium" />
   <project path="system/core" name="system_core" remote="cesium" />
   <project path="system/sepolicy" name="system_sepolicy" remote="cesium" />
+  <project path="system/security" name="system_security" remote="cesium" />
   <project path="system/vold" name="system_vold" remote="cesium" />
   
   <!-- Prebuilts -->
