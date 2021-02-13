@@ -95,7 +95,7 @@
   <project path="packages/apps/ExactCalculator" name="packages_apps_ExactCalculator" remote="cesium" />
   <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="cesium" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="cesium" />
-  <project path="packages/apps/OmniStyle" name="packages_apps_OmniStyle" remote="cesium" />
+  <!--project path="packages/apps/OmniStyle" name="packages_apps_OmniStyle" remote="cesium" /-->
   <project path="packages/apps/WallBucket" name="packages_apps_WallBucket" remote="cesium" />
   <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" remote="cesium" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="cesium" />
