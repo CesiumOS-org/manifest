@@ -88,6 +88,7 @@
   <project path="device/mediatek/sepolicy" name="device_mediatek_sepolicy" remote="cesium" />
 
   <!-- Packages repos -->
+  <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="cesium" />
   <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="cesium" />
   <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="cesium" />
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="cesium" />
