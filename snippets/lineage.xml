@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote name="lineage"
-          fetch="https://github.com/LineageOS"
-          revision="lineage-18.1" />
-		  
   <!-- Custom additions -->
   <project path="prebuilts/tools-custom" name="android_prebuilts_tools-lineage" remote="lineage" clone-depth="1" />
 

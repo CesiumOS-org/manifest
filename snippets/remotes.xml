@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="cesium"
+          fetch="https://github.com/CesiumOS-org"
+          revision="eleven" />
+
+  <remote name="cesium-devices"
+          fetch="https://github.com/Cesium-Devices"
+          revision="eleven" />
+
+  <remote  name="cesium-bb"
+           fetch="https://bitbucket.org/cesiumos"
+           revision="eleven" />
+
+  <remote name="gitlab"
+          fetch="https://gitlab.com" />
+
+  <remote name="lineage"
+          fetch="https://github.com/LineageOS"
+          revision="lineage-18.1" />
+		  
+</manifest>          

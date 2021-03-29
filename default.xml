@@ -838,4 +838,7 @@
 
   <!-- Add all CesiumOS repos -->
   <include name="snippets/cesium.xml" />
+  
+  <!-- Use A Seperate File For Remotes -->
+  <include name="snippets/remotes.xml" />	
 </manifest>
