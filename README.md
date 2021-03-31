@@ -143,7 +143,7 @@ Submitting Patches
 ==================
 >> CesiumOS is an open source project thus any patches/contributions are always welcome !
 
->> To begin with, you need to login to our code review system at [CesiumOS Code Review](http://review.thecesiumos.me:8081)
+>> To begin with, you need to login to our code review system at [CesiumOS Code Review](https://review.thecesiumos.me)
 
 >> We support login using Github Oauth provider, which means if you have either of account you can login to gerrit by that account.
 It is important that you set the USERNAME in your account on gerrit. If you have logged in using Github account then your Github USERNAME will be used as gerrit USERNAME automatically. Else you can set unique username in `Profile` section of gerrit account Settings.
@@ -181,12 +181,12 @@ It is important that you set the USERNAME in your account on gerrit. If you have
 >> If you have satisfied with the changes you made then you can upload the patchset to gerrit.
 
 ```bash
-      $ git push ssh://USERNAME@review.thecesiumos.me:29418/PROJECT_NAME HEAD:refs/for/eleven
+      $ git push ssh://USERNAME@review.thecesiumos.me:2224/PROJECT_NAME HEAD:refs/for/eleven
 ```
 
 >> Here the PROJECT_NAME is the path to repository on gerrit. You can find the PROJECT_NAME by navigating to the `Projects` section on gerrit.
 
->> For example - CesiumOS/packages_apps_Settings
+>> For example - packages_apps_Settings
 
 >> It is recommended that you commit your several relevent patches in to one single commit.
 
@@ -206,7 +206,7 @@ It is important that you set the USERNAME in your account on gerrit. If you have
 
 >> Gerrit will recognize it as a new patchset in an exisiting commit.
 
->> To view the status of your and/or others patches, visit [CesiumOS Code Review](http://review.thecesiumos.me:8081)
+>> To view the status of your and/or others patches, visit [CesiumOS Code Review](https://review.thecesiumos.me)
 
 <p align="center">
 <img src="https://i.postimg.cc/ZYXGkXdr/About-Device-Banner-2.png" > 
