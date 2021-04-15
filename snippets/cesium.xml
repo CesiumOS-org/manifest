@@ -5,6 +5,7 @@
   <project path="external/motorola/faceunlock" name="external_motorola_faceunlock" remote="cesium-bb" />
   <project path="external/selinux" name="external_selinux" remote="cesium" />
   <project path="external/tinycompress" name="external_tinycompress" remote="cesium" />
+  <project path="external/asus/stitchimage" name="syberia-project/platform_external_asus_stitchimage" remote="github" revision="11.0"/>
   
   <!-- Hardware repos -->
   <project path="hardware/custom/interfaces" name="hardware_custom_interfaces" remote="cesium" />
