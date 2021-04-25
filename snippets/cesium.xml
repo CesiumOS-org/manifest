@@ -98,7 +98,10 @@
   <project path="system/sepolicy" name="system_sepolicy" remote="cesium" />
   <project path="system/security" name="system_security" remote="cesium" />
   <project path="system/vold" name="system_vold" remote="cesium" />
-  
+
+  <!-- Vendor -->
+  <project path="vendor/qcom/opensource/power" name="vendor_qcom_opensource_power" remote="cesium" />
+
   <!-- Prebuilts -->
   <project path="prebuilts/abi-dumps/vndk" name="prebuilts_abi-dumps_vndk" remote="cesium" clone-depth="1" />
 
