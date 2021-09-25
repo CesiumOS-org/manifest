@@ -17,28 +17,21 @@ How to build CesiumOS ROM for your device - Tutorial
 - Tested and Working on any version of Ubuntu - 16.04,18.04,20.04 (64-bit)
 - Any other distribution based of the Ubuntu Distro such as Lubuntu, Xubuntu and etc.
 - Any form of Terminal
-- Decent hardware (minimum of at least a quad core CPU and 16 GB of RAM)
-- A storage unit of any kind (We recommend utilizing SSDs as Mechanical HDDs slow down the build proccess drastically and the minimum storage size is 70GB. Having more will be useful with CCache[More on that later])
+- Decent hardware (minimum of at least a octa core CPU and 16 GB of RAM)
+- A storage unit of any kind (We recommend utilizing SSDs as Mechanical HDDs slow down the build proccess drastically and the minimum storage size is 256GB. Having more will be useful with CCache[More on that later])
 - Required Packages should have been installed
 
 ### Required Packages [this is for Ubuntu/Linux Mint/other distributions using the apt package manager, for other variants it may differ]
 ##### Simply copy and paste this in a terminal window:
->> [Hint: This command updates the Ubuntu Packages List (Install Listing) and install the required version of Java]
-
-```bash
-     $ sudo apt-get install openjdk-8-jdk default-jdk
-```
-
-### Let that install and then proceed.
-
-### More copy and paste:
->> [Hint: Running this command installs the other required packages to build android]
+>> [Hint: Running this command installs the required packages to build android]
 
 ```bash
      $ git clone https://github.com/akhilnarang/scripts
      $ cd scripts
      $ bash setup/android_build_env.sh
 ```
+
+### Let that install and then proceed.
 
 ### Getting the source
 - Making required directories
@@ -60,7 +53,7 @@ How to build CesiumOS ROM for your device - Tutorial
 ##### Initializing the cos repo and downloading the manifest
 
 ```bash
-      $  repo init --depth=1 -u https://github.com/CesiumOS-org/manifest.git -b eleven
+      $  repo init -u https://github.com/CesiumOS-org/manifest.git -b eleven
 ```
 
 ##### Syncing the source
@@ -113,7 +106,7 @@ OR
 >> If you found it, then congratulations! If you didn't, try retrying the build process but before doing so, ensure you do the following to make sure your next build is clean;
 
 ```bash
-      $ cd ~/cos
+      $ cd ~/cesium
       $ make clean
       $ repo sync --force-sync
 ```
@@ -131,7 +124,7 @@ Getting Official Maintainership for CesiumOS
 
 >> First make an unofficial build of CesiumOS and post in [**XDA**](xda-developers.com).
 
->> Then, Ping us on Telegram :- [**Gagan**](https://t.me/theacanthite) or [**Sahil**](https://t.me/SahilSonar) 
+>> Then, Ping us on Telegram :- [**Sahil**](https://t.me/SahilSonar) 
 
 >> Join our [**Telegram Channel**](https://t.me/CesiumOS_News) and our  [**Telegram group**](https://t.me/CesiumOS_Community)
 
