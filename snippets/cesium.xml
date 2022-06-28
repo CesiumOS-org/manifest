@@ -55,7 +55,7 @@
   <!-- Vendor Repos -->
   <project path="vendor/cesium" name="vendor_cesium" remote="cesium" />
   <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" remote="cesium" />
-  <project path="vendor/google/gms" name="PotatoDevices/vendor_google_gms" remote="gitlab" clone-depth="1" />
-  <project path="vendor/google/pixel" name="PotatoDevices/vendor_google_pixel" remote="gitlab" clone-depth="1" />
+  <project path="vendor/google/gms" name="PotatoDevices/vendor_google_gms" remote="gitlab" revision="frico_mr1-release" clone-depth="1" />
+  <project path="vendor/google/pixel" name="PotatoDevices/vendor_google_pixel" remote="gitlab" revision="frico_mr1-release" clone-depth="1" />
 
 </manifest>
