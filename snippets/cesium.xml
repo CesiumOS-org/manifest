@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <include name="snippets/remove.xml" />
+  <include name="snippets/lineage.xml" />
+
+  <!-- External repos -->
+  <project path="external/selinux" name="external_selinux" remote="cesium" />
+  <project path="external/tinycompress" name="external_tinycompress" remote="cesium" />
+
+  <!-- Framework repos -->
+  <project path="frameworks/av" name="frameworks_av" remote="cesium" />
+  <project path="frameworks/base" name="frameworks_base" remote="cesium" />
+  <project path="frameworks/native" name="frameworks_native" remote="cesium" />
+
+  <!-- General repos -->
+  <project path="bionic" name="bionic" remote="cesium" />
+  <project path="build/make" name="build" remote="cesium">
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="build/soong" name="build_soong" remote="cesium" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+  <project path="bootable/recovery" name="bootable_recovery" remote="cesium" />
+  <project path="manifest" name="manifest" remote="cesium" />
+
+  <!-- Hardware repos -->
+  <project path="hardware/interfaces" name="hardware_interfaces" remote="cesium" />
+  <project path="hardware/libhardware" name="hardware_libhardware" remote="cesium" />
+
+  <!-- Packages repos -->
+  <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="cesium" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="cesium" />
+  <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="cesium" />
+  <project path="packages/apps/Updater" name="packages_apps_Updater" remote="cesium" />
+
+  <!-- System Repos -->
+  <project path="system/core" name="system_core" remote="cesium" />
+  <project path="system/sepolicy" name="system_sepolicy" remote="cesium" />
+
+  <!-- Sepolicy Repos -->
+  <project path="device/cesium/sepolicy" name="device_cesium_sepolicy" remote="cesium" />
+  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="cesium" />
+  <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" remote="cesium" />
+
+  <!-- Vendor Repos -->
+  <project path="vendor/cesium" name="vendor_cesium" remote="cesium" />
+  <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" remote="cesium" />
+  <project path="vendor/google/gms" name="gotenksIN/android_vendor_google_gms" remote="gitlab" revision="topaz" clone-depth="1" />
+  <project path="vendor/google/pixel" name="ThankYouMario/android_vendor_google_pixel" remote="github" revision="topaz" clone-depth="1" />
+
+</manifest>
